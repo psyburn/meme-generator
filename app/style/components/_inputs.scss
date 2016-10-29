@@ -1,0 +1,23 @@
+$inputs-border-color: #D4D4D4;
+
+.__input {
+  @extend %font-normal;
+  width: 300px;
+  margin: 5px;
+  padding: 6px;
+
+  border: 1px solid $inputs-border-color;
+  outline: none;
+
+  flex: 8;
+
+  &--small {
+    width: 240px;
+    padding: {
+      top: 2px;
+      bottom: 2px;
+    }
+
+    flex: 4;
+  }
+}

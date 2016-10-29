@@ -1,0 +1,11 @@
+$img-border-color: #303B45;
+
+.meme-image {
+  max-width: 437px;
+
+  margin: 0 auto 50px;
+
+  @include media(mobile) {
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "background_color": "#50217f",
+  "theme_color": "#50217f",
+  "start_url": "/",
+  "name": "Overengineereed meme generator",
+  "short_name": "Overengineereedmeme",
+  "display": "standalone",
+  "icons": [{
+    "src": "icons/Icon_16x16.png",
+    "sizes": "16x16",
+    "type": "image/png"
+  }, {
+    "src": "icons/Icon_32x32.png",
+    "sizes": "32x32",
+    "type": "image/png"
+  }, {
+    "src": "icons/Icon_128x128.png",
+    "sizes": "128x128",
+    "type": "image/png"
+  }, {
+    "src": "icons/Icon_256x256.png",
+    "sizes": "256x256",
+    "type": "image/png"
+  }, {
+    "src": "icons/Icon_512x512.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }],
+  "orientation": "portrait"
+}

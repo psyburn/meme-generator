@@ -1,0 +1,29 @@
+$card-shadow: rgba(0, 0, 0, 0.5);
+
+.cards {
+  width: 534px;
+
+  padding: 30px;
+
+  position: relative;
+
+  background-color: $secondary-background-color;
+  box-shadow: 0 20px 20px 0 $card-shadow;
+
+  @include media(mobile) {
+    width: 100%;
+    margin: 0;
+  }
+
+  & &__title {
+    font-size: 40px;
+
+    margin: 0;
+  }
+
+  & &__subtitle {
+    @extend %font-normal;
+
+    line-height: 24px;
+  }
+}

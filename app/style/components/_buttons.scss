@@ -1,0 +1,47 @@
+$button-background-color: #2B95CA;
+$button-background-hover-color: darken($button-background-color, 5%);
+$button-background-active: darken($button-background-color, 15%);
+
+.__button {
+  font-size: 14px;
+
+  margin: 5px;
+  padding: 8px 33px;
+
+  cursor: pointer;
+  transition: background-color 0.2s;
+  text-transform: uppercase;
+
+  color: $second-color;
+  border: 0;
+  outline: none;
+  background-color: $button-background-color;
+
+  flex: 1;
+
+  &:hover,
+  &:focus {
+    background-color: $button-background-hover-color;
+  }
+
+  &--voice {
+    padding: 8px;
+
+    text-indent: -9999px;
+
+    background: {
+      image: url('../assets/images/voice-icon.svg');
+      repeat: no-repeat;
+      position: center;
+      size: 14px 19px;
+    }
+
+    &.is-active {
+      background-color: $button-background-active;
+    }
+  }
+
+  &--small {
+    padding: 4px 18px;
+  }
+}
