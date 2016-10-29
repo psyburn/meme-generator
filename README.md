@@ -7,7 +7,7 @@ For your pleasure.
 
 ### 1. Setup
 
-Start by issuing `npm install` in the project. You need `scss-lint` installed too.
+Start by issuing `npm install` in the project. 
 
 ### 2. Development
 
